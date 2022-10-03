@@ -1,0 +1,21 @@
+h1{
+  font-family: "bleeding cowboys";
+  color: brown;
+  font-size: 400%;
+}
+
+p{
+  font-family: "papyrus";
+  text-indent: 30px;
+  margin-left: 20px;
+}
+
+#content{
+  background-color: #708a65;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 10px dashed #444444;
+  font-size: 20px;
+}
