@@ -1,0 +1,24 @@
+
+
+p{
+  color: #336699;
+  font-weight: bold;
+}
+
+#filler1 {
+  background-color: green;
+  padding: 20px;
+  border: solid 5px blue;
+  border-radius: 20px;
+}
+
+#intro {
+    background-color: beige;
+    padding: 20px;
+    border: solid 10px brown;
+    border-radius: 20px;
+}
+
+#portrait {
+    width: 450px;
+}
