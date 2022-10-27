@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+  background-color: tomato;
+  color: navy;
+  font-family: cursive;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+img {
+  width: 80%;
+  min-width: 500px;
+  max-width: 1500px;
+}
