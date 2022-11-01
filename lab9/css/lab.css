@@ -1,0 +1,35 @@
+body{
+  text-align: left;
+  background-color: #37958D;
+  color: #B3DFDB;
+  font-family: andale mono;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+img {
+  width: 60%;
+  min-width: 250px;
+  max-width: 750px;
+
+}
+
+#wrapBox {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#output {
+}
+
+
+#secondOuput {
+}
+
+
+#thirdOutput {
+}

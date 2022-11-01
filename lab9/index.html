@@ -22,13 +22,21 @@
 		<p>We misread the instructions on the Canvas page, causing us to think that we needed to append both of the new elements at once. We learned that we could use .append instead of .appendChild to do so. The latter method only appends one child at a time. We also had problems getting our button to work. It seemed like if we created the button event listener [the thing that senses if a button is clicked] through JS instead of the CSS/HTML, the function of the button would run when the page was opened rather than when the button was clicked. We also occasionally forgot to add the .document to JS methods that would affect elements that already exist in the HTML.</p>
 	</div>
 
-<div>
+<div id="wrapBox">
 	<h2>Results</h2>
 	<p></p>
   <img src=>
 
 	<h3>BELOW IS THE DIV THAT WILL UNDERGO CHANGES THROUGH JS</h3>
-	<div id="output"></div>
+	<div id="output">
+		<p>This paragraph is above elements added through JS.</p>
+	</div>
+	<div id="secondOutput">
+		<p>This paragraph is below an element added through JavaScript!</p>
+	</div>
+	<div id="thirdOutput">
+		<p>This is a different, better, and fancier paragraph that is below an element added through JavaScript!</p>
+	</div>
 </div>
 
 </body>
