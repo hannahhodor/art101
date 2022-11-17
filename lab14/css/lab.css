@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+  background-color: #9F8FF5;
+  color: #EAE6FF;
+  font-family: optima;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+img {
+  width: 80%;
+  min-width: 500px;
+  max-width: 1500px;
+}
+
+.caption {
+  margin-top: -3vh;
+  margin-bottom: 5vh;
+}

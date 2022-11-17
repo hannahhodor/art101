@@ -115,10 +115,19 @@ buttonElTwo.addEventListener("click", function(){
 
   topBoxEl = document.getElementById("top-box");
   bottomBoxEl = document.getElementById("bottom-box");
+  removeBoxEl = document.getElementById("remove-box");
 
   topBoxEl.addEventListener('click', function(){
     topBoxEl.style.display="none";
   });
+
   bottomBoxEl.addEventListener('click', function(){
     bottomBoxEl.style.display="none";
   });
+
+  removeBoxEl.addEventListener('click', function(){
+    debugger;
+      if(bottomBoxEl.style.display=="none" && topBoxEl.style.display=="none"){
+        removeBoxEl.style.display="none";
+      };
+    });
