@@ -1,21 +1,58 @@
+body{
+  text-align: center;
+  background-color: #FF8353;
+  height: 100%;
+}
+
 h1{
-  font-family: "bleeding cowboys";
-  color: brown;
-  font-size: 400%;
+  font-family: "courier new";
+  color: #FFC55C;
+  font-size: 225%;
+}
+
+h2{
+  font-family: "courier new";
+  color: #FFEAC3;
+  font-size: 120%;
 }
 
 p{
-  font-family: "papyrus";
+  font-family: "trebuchet ms";
+  color: #FFD68A;
   text-indent: 30px;
   margin-left: 20px;
+  font-weight: lighter;
+  font-size: 88%;
+}
+
+img{
+  width: 80%;
+  min-width: 500px;
+  max-width: 1500px;
+}
+
+.caption {
+  font-size: 70%;
+  color: #FFEAC3;
+
+}
+
+#border{
+  height: 1000px;
+  background: radial-gradient(circle, #FFD68A 0%, #FFA500 30%, #FF8353 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #content{
-  background-color: #708a65;
+  background-color: #FF8353;
   width: 500px;
   min-height: 300px;
   padding: 10px;
-  margin: 10px;
-  border: 10px dashed #444444;
+  margin: 1em;
+  border: 10px double #FFD68A;
   font-size: 20px;
+  position: absolute;
+
 }
