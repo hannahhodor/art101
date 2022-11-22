@@ -17,4 +17,21 @@ $('#activate').click(function(){
             }
   });
 });
-  
+
+$('#push').click(function(){
+  $.ajax({
+    url: 'https://www.chickensmoothie.com/',
+      data: {},
+        type: 'GET',
+          dataType: 'html',
+            success: function (data) {
+              console.log(data);
+              $('#anotheroutput').load("https://www.chickensmoothie.com/ div#welcome")
+              $('#anotheroutput').load("https://www.chickensmoothie.com/ li.reqjs");
+              $('#anotheroutput').load("https://www.chickensmoothie.com/ div#newslist")
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log("error oopsy", textStatus, errorThrown);
+            }
+  });
+});
